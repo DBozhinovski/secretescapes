@@ -122,6 +122,8 @@ body {
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
+  clear: both;
+  text-align: center;
 }
 
 .phone {
