@@ -23,18 +23,6 @@ body {
     line-height: 1.4;
 }
 
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: #551a8b;
-}
-
-a:hover {
-    color: #06e;
-}
-
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -79,6 +67,7 @@ body {
   height: 1136px;
   width: 640px;
   overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .wrap {
@@ -93,8 +82,15 @@ body {
   overflow: hidden;
 }
 
-.deals {
+h1 {
+  margin: 0;
+  padding: 0;
   margin-bottom: 80px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  font-size: 47px;
+  text-transform: capitalize;
 }
 
 .button {
@@ -104,6 +100,9 @@ body {
   line-height: 70px;
   text-align: center;
   margin-bottom: 110px;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 600;
 }
 
 .buttonOrange {
@@ -124,6 +123,10 @@ body {
   margin-bottom: 100px;
   clear: both;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .phone {
