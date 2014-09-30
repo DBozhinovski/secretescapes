@@ -106,19 +106,19 @@ body {
   margin-bottom: 110px;
 }
 
-.button-orange {
+.buttonOrange {
   background: #ff9009;
   color: #fff;
   float: left;
 }
 
-.button-white {
+.buttonWhite {
   background: #fff;
   color: #ff9009;
   float: right;
 }
 
-.to-mobile {
+.toMobile {
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -129,26 +129,26 @@ body {
   left: -25px;
 }
 
-.phone-img {
+.phoneImg {
   position: relative;
   z-index: 20;
 }
 
-.phone-shadow {
+.phoneShadow {
   position: relative;
   z-index: 10;
   margin-top: -550px;
   margin-left: -25px;
 }
 
-.phone-screen {
+.phoneScreen {
   position:relative;
   z-index: 30;
   margin-top: -766px;
   margin-left: 80px;
 }
 
-.phone-glare {
+.phoneGlare {
   position: relative;
   margin-top: -877px;
   margin-left: 16px;
@@ -278,59 +278,3 @@ textarea[contenteditable] {
 .clearfix:after {
     clear: both;
 }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-/*@media only screen
-and (min-device-width : 768px)
-and (orientation : landscape) {
-  html {
-    height: 1206px;
-    width: 1177px;
-    overflow: hidden;
-  }
-
-  body {
-    background: url('../img/background-landscape.jpg') no-repeat;
-    width: 1177px;
-    /*overflow: hidden;*/
-    /*height: 1206px;
-  }
-
-  .wrap {
-    width: 640px;
-    height: 1136px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-
-  .white {
-    width: 1177px;
-  }
-
-  .overlay {
-    background: none;
-    margin-top: 345px;
-  }
-
-  .overlay-landscape {
-    background: url('../img/overlay_black.png');
-    height: 412px;
-    width: 100%;
-    margin-top: -410px;
-    position: relative;
-    z-index: 0;
-  }
-
-  .phone {
-    position: absolute;
-    left: 30%;
-    margin: 0;
-    width: 1000px;
-  }
-
-
-}*/*/
