@@ -140,20 +140,12 @@ h1 {
   margin-left: -16px;
 }
 
-.overlay {
+.logo {
   position: relative;
-  z-index: 1;
-  margin-top: -430px;
-  margin-left:  -50px;
-  height: 412px;
-  width: 640px;
-  background: url('../img/overlay_black.png') no-repeat;
-  padding: 0 50px;
+  margin-top: -210px;
+  margin-left: -50px;
 }
 
-.overlay img {
-  margin-top: 210px;
-}
 
 /* ==========================================================================
    Helper classes
